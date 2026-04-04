@@ -36,6 +36,7 @@
          AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
          ClientSize = new System.Drawing.Size(484, 361);
          Name = "Form1";
+         StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
          Text = "Form1";
          ResumeLayout(false);
       }
