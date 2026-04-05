@@ -37,7 +37,7 @@
          ClientSize = new System.Drawing.Size(484, 361);
          Name = "FormOne";
          StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-         Text = "Form1";
+         Text = "Двусторонний обмен между Windows Forms и консолью ";
          ResumeLayout(false);
       }
 
