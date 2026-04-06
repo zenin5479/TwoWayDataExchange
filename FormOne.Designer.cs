@@ -72,7 +72,7 @@
          // 
          AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
          AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-         ClientSize = new System.Drawing.Size(484, 361);
+         ClientSize = new System.Drawing.Size(281, 112);
          Controls.Add(lblPrompt);
          Controls.Add(btnCalc);
          Controls.Add(lblResult);
