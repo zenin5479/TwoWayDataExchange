@@ -24,10 +24,7 @@ namespace TwoWayDataExchange
          Console.WriteLine("Здесь будут отображаться шаги вычисления\n");
       }
 
-      private void CreateUi()
-      {
-
-      }
+     
 
       private void ButtonCalculator_Click(object sender, EventArgs e)
       {
