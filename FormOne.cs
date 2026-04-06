@@ -30,7 +30,7 @@ namespace TwoWayDataExchange
          FormClosing += Form1_FormClosing;
       }
 
-      private void btnCalc_Click(object sender, EventArgs e)
+      private void ButtonCalculator_Click(object sender, EventArgs e)
       {
          if (!int.TryParse(TextBoxNumber.Text, out int n) || n < 0)
          {
