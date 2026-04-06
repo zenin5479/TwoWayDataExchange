@@ -80,7 +80,7 @@
          Controls.Add(txtNumber);
          Name = "FormOne";
          StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-         Text = "Двусторонний обмен между Windows Forms и консолью ";
+         Text = "Факториал через консоль";
          ResumeLayout(false);
          PerformLayout();
       }
