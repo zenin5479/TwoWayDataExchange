@@ -28,18 +28,18 @@
       /// </summary>
       private void InitializeComponent()
       {
-         txtNumber = new System.Windows.Forms.TextBox();
+         TextBoxNumber = new System.Windows.Forms.TextBox();
          LabelResult = new System.Windows.Forms.Label();
          ButtonCalc = new System.Windows.Forms.Button();
          LabelPrompt = new System.Windows.Forms.Label();
          SuspendLayout();
          // 
-         // txtNumber
+         // TextBoxNumber
          // 
-         txtNumber.Location = new System.Drawing.Point(12, 27);
-         txtNumber.Name = "txtNumber";
-         txtNumber.Size = new System.Drawing.Size(150, 23);
-         txtNumber.TabIndex = 0;
+         TextBoxNumber.Location = new System.Drawing.Point(12, 27);
+         TextBoxNumber.Name = "TextBoxNumber";
+         TextBoxNumber.Size = new System.Drawing.Size(150, 23);
+         TextBoxNumber.TabIndex = 0;
          // 
          // LabelResult
          // 
@@ -77,7 +77,7 @@
          Controls.Add(LabelPrompt);
          Controls.Add(ButtonCalc);
          Controls.Add(LabelResult);
-         Controls.Add(txtNumber);
+         Controls.Add(TextBoxNumber);
          Name = "FormOne";
          StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
          Text = "Факториал через консоль";
@@ -87,7 +87,7 @@
 
       #endregion
 
-      private System.Windows.Forms.TextBox txtNumber;
+      private System.Windows.Forms.TextBox TextBoxNumber;
       private System.Windows.Forms.Label LabelResult;
       private System.Windows.Forms.Button ButtonCalc;
       private System.Windows.Forms.Label LabelPrompt;

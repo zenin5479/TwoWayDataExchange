@@ -32,7 +32,7 @@ namespace TwoWayDataExchange
 
       private void btnCalc_Click(object sender, EventArgs e)
       {
-         if (!int.TryParse(txtNumber.Text, out int n) || n < 0)
+         if (!int.TryParse(TextBoxNumber.Text, out int n) || n < 0)
          {
             MessageBox.Show("Введите неотрицательное целое число.", "Ошибка");
             return;
