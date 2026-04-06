@@ -35,7 +35,7 @@
          // 
          // txtNumber
          // 
-         txtNumber.Location = new System.Drawing.Point(59, 55);
+         txtNumber.Location = new System.Drawing.Point(12, 12);
          txtNumber.Name = "txtNumber";
          txtNumber.Size = new System.Drawing.Size(100, 23);
          txtNumber.TabIndex = 0;
@@ -51,11 +51,11 @@
          // 
          // btnCalc
          // 
-         btnCalc.Location = new System.Drawing.Point(105, 152);
+         btnCalc.Location = new System.Drawing.Point(25, 74);
          btnCalc.Name = "btnCalc";
          btnCalc.Size = new System.Drawing.Size(75, 23);
          btnCalc.TabIndex = 2;
-         btnCalc.Text = "button1";
+         btnCalc.Text = "Вычислить факториал";
          btnCalc.UseVisualStyleBackColor = true;
          // 
          // FormOne
