@@ -46,7 +46,6 @@ namespace TwoWayDataExchange
          lblResult.Text = string.Format("Результат: {0}! = {1}", n, result);
       }
 
-
       // Вычисляет факториал и выводит промежуточные шаги в консоль
       private long FactorialWithConsoleLog(int n)
       {
