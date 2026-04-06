@@ -58,6 +58,7 @@
          btnCalc.TabIndex = 2;
          btnCalc.Text = "Вычислить факториал";
          btnCalc.UseVisualStyleBackColor = true;
+         btnCalc.Click += btnCalc_Click;
          // 
          // lblPrompt
          // 
