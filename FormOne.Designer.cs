@@ -38,7 +38,7 @@
          // 
          txtNumber.Location = new System.Drawing.Point(12, 27);
          txtNumber.Name = "txtNumber";
-         txtNumber.Size = new System.Drawing.Size(144, 23);
+         txtNumber.Size = new System.Drawing.Size(150, 23);
          txtNumber.TabIndex = 0;
          // 
          // lblResult
