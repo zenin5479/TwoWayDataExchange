@@ -30,12 +30,12 @@
       {
          txtNumber = new System.Windows.Forms.TextBox();
          label1 = new System.Windows.Forms.Label();
-         button1 = new System.Windows.Forms.Button();
+         btnCalc = new System.Windows.Forms.Button();
          SuspendLayout();
          // 
          // txtNumber
          // 
-         txtNumber.Location = new System.Drawing.Point(86, 109);
+         txtNumber.Location = new System.Drawing.Point(59, 55);
          txtNumber.Name = "txtNumber";
          txtNumber.Size = new System.Drawing.Size(100, 23);
          txtNumber.TabIndex = 0;
@@ -49,21 +49,21 @@
          label1.TabIndex = 1;
          label1.Text = "label1";
          // 
-         // button1
+         // btnCalc
          // 
-         button1.Location = new System.Drawing.Point(105, 152);
-         button1.Name = "button1";
-         button1.Size = new System.Drawing.Size(75, 23);
-         button1.TabIndex = 2;
-         button1.Text = "button1";
-         button1.UseVisualStyleBackColor = true;
+         btnCalc.Location = new System.Drawing.Point(105, 152);
+         btnCalc.Name = "btnCalc";
+         btnCalc.Size = new System.Drawing.Size(75, 23);
+         btnCalc.TabIndex = 2;
+         btnCalc.Text = "button1";
+         btnCalc.UseVisualStyleBackColor = true;
          // 
          // FormOne
          // 
          AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
          AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
          ClientSize = new System.Drawing.Size(484, 361);
-         Controls.Add(button1);
+         Controls.Add(btnCalc);
          Controls.Add(label1);
          Controls.Add(txtNumber);
          Name = "FormOne";
@@ -77,6 +77,6 @@
 
       private System.Windows.Forms.TextBox txtNumber;
       private System.Windows.Forms.Label label1;
-      private System.Windows.Forms.Button button1;
+      private System.Windows.Forms.Button btnCalc;
    }
 }
