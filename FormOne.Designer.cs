@@ -29,7 +29,7 @@
       private void InitializeComponent()
       {
          txtNumber = new System.Windows.Forms.TextBox();
-         label1 = new System.Windows.Forms.Label();
+         lblResult = new System.Windows.Forms.Label();
          btnCalc = new System.Windows.Forms.Button();
          SuspendLayout();
          // 
@@ -40,14 +40,14 @@
          txtNumber.Size = new System.Drawing.Size(100, 23);
          txtNumber.TabIndex = 0;
          // 
-         // label1
+         // lblResult
          // 
-         label1.AutoSize = true;
-         label1.Location = new System.Drawing.Point(144, 198);
-         label1.Name = "label1";
-         label1.Size = new System.Drawing.Size(38, 15);
-         label1.TabIndex = 1;
-         label1.Text = "label1";
+         lblResult.AutoSize = true;
+         lblResult.Location = new System.Drawing.Point(144, 198);
+         lblResult.Name = "lblResult";
+         lblResult.Size = new System.Drawing.Size(38, 15);
+         lblResult.TabIndex = 1;
+         lblResult.Text = "label1";
          // 
          // btnCalc
          // 
@@ -64,7 +64,7 @@
          AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
          ClientSize = new System.Drawing.Size(484, 361);
          Controls.Add(btnCalc);
-         Controls.Add(label1);
+         Controls.Add(lblResult);
          Controls.Add(txtNumber);
          Name = "FormOne";
          StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -76,7 +76,7 @@
       #endregion
 
       private System.Windows.Forms.TextBox txtNumber;
-      private System.Windows.Forms.Label label1;
+      private System.Windows.Forms.Label lblResult;
       private System.Windows.Forms.Button btnCalc;
    }
 }
