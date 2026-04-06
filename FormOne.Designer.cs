@@ -31,6 +31,7 @@
          txtNumber = new System.Windows.Forms.TextBox();
          lblResult = new System.Windows.Forms.Label();
          btnCalc = new System.Windows.Forms.Button();
+         lblPrompt = new System.Windows.Forms.Label();
          SuspendLayout();
          // 
          // txtNumber
@@ -58,11 +59,21 @@
          btnCalc.Text = "Вычислить факториал";
          btnCalc.UseVisualStyleBackColor = true;
          // 
+         // lblPrompt
+         // 
+         lblPrompt.AutoSize = true;
+         lblPrompt.Location = new System.Drawing.Point(325, 137);
+         lblPrompt.Name = "lblPrompt";
+         lblPrompt.Size = new System.Drawing.Size(38, 15);
+         lblPrompt.TabIndex = 3;
+         lblPrompt.Text = "label1";
+         // 
          // FormOne
          // 
          AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
          AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
          ClientSize = new System.Drawing.Size(484, 361);
+         Controls.Add(lblPrompt);
          Controls.Add(btnCalc);
          Controls.Add(lblResult);
          Controls.Add(txtNumber);
@@ -78,5 +89,6 @@
       private System.Windows.Forms.TextBox txtNumber;
       private System.Windows.Forms.Label lblResult;
       private System.Windows.Forms.Button btnCalc;
+      private System.Windows.Forms.Label lblPrompt;
    }
 }
