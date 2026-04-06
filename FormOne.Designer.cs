@@ -31,7 +31,7 @@
          txtNumber = new System.Windows.Forms.TextBox();
          lblResult = new System.Windows.Forms.Label();
          btnCalc = new System.Windows.Forms.Button();
-         lblPrompt = new System.Windows.Forms.Label();
+         LabelPrompt = new System.Windows.Forms.Label();
          SuspendLayout();
          // 
          // txtNumber
@@ -60,21 +60,21 @@
          btnCalc.UseVisualStyleBackColor = true;
          btnCalc.Click += btnCalc_Click;
          // 
-         // lblPrompt
+         // LabelPrompt
          // 
-         lblPrompt.AutoSize = true;
-         lblPrompt.Location = new System.Drawing.Point(12, 9);
-         lblPrompt.Name = "lblPrompt";
-         lblPrompt.Size = new System.Drawing.Size(161, 15);
-         lblPrompt.TabIndex = 3;
-         lblPrompt.Text = "Введите целое число (0..20):";
+         LabelPrompt.AutoSize = true;
+         LabelPrompt.Location = new System.Drawing.Point(12, 9);
+         LabelPrompt.Name = "LabelPrompt";
+         LabelPrompt.Size = new System.Drawing.Size(161, 15);
+         LabelPrompt.TabIndex = 3;
+         LabelPrompt.Text = "Введите целое число (0..20):";
          // 
          // FormOne
          // 
          AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
          AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
          ClientSize = new System.Drawing.Size(314, 111);
-         Controls.Add(lblPrompt);
+         Controls.Add(LabelPrompt);
          Controls.Add(btnCalc);
          Controls.Add(lblResult);
          Controls.Add(txtNumber);
@@ -90,6 +90,6 @@
       private System.Windows.Forms.TextBox txtNumber;
       private System.Windows.Forms.Label lblResult;
       private System.Windows.Forms.Button btnCalc;
-      private System.Windows.Forms.Label lblPrompt;
+      private System.Windows.Forms.Label LabelPrompt;
    }
 }
