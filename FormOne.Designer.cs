@@ -53,7 +53,7 @@
          // 
          btnCalc.Location = new System.Drawing.Point(25, 74);
          btnCalc.Name = "btnCalc";
-         btnCalc.Size = new System.Drawing.Size(75, 23);
+         btnCalc.Size = new System.Drawing.Size(144, 23);
          btnCalc.TabIndex = 2;
          btnCalc.Text = "Вычислить факториал";
          btnCalc.UseVisualStyleBackColor = true;
