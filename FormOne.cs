@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Drawing;
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
 
@@ -32,7 +31,7 @@ namespace TwoWayDataExchange
          FormClosing += Form1_FormClosing;
       }
 
-      
+
       private void btnCalc_Click(object sender, EventArgs e)
       {
          if (!int.TryParse(txtNumber.Text, out int n) || n < 0)
