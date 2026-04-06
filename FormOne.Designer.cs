@@ -43,15 +43,15 @@
          // lblResult
          // 
          lblResult.AutoSize = true;
-         lblResult.Location = new System.Drawing.Point(144, 198);
+         lblResult.Location = new System.Drawing.Point(12, 67);
          lblResult.Name = "lblResult";
-         lblResult.Size = new System.Drawing.Size(38, 15);
+         lblResult.Size = new System.Drawing.Size(66, 15);
          lblResult.TabIndex = 1;
-         lblResult.Text = "label1";
+         lblResult.Text = "Результат: ";
          // 
          // btnCalc
          // 
-         btnCalc.Location = new System.Drawing.Point(25, 74);
+         btnCalc.Location = new System.Drawing.Point(12, 41);
          btnCalc.Name = "btnCalc";
          btnCalc.Size = new System.Drawing.Size(144, 23);
          btnCalc.TabIndex = 2;
