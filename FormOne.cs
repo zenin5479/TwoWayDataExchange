@@ -39,14 +39,14 @@ namespace TwoWayDataExchange
          }
 
          // Вычисление факториала с выводом в консоль
-         long result = FactorialWithConsoleLog(n);
+         long result = FactorialWithConsole(n);
 
          // Отображаем результат в форме
          LabelResult.Text = string.Format("Результат: {0}! = {1}", n, result);
       }
 
       // Вычисляет факториал и выводит промежуточные шаги в консоль
-      private long FactorialWithConsoleLog(int n)
+      private long FactorialWithConsole(int n)
       {
          if (n == 0 || n == 1)
          {
