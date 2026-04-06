@@ -15,8 +15,8 @@ namespace TwoWayDataExchange
       public FormOne()
       {
          InitializeComponent();
-
-         CreateUi();
+         FormClosing += FormOne_FormClosing;
+         //CreateUi();
 
          // Подключаем консоль к процессу
          AllocConsole();
@@ -27,7 +27,7 @@ namespace TwoWayDataExchange
 
       private void CreateUi()
       {
-         FormClosing += FormOne_FormClosing;
+
       }
 
       private void ButtonCalculator_Click(object sender, EventArgs e)
