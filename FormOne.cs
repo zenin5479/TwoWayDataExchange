@@ -57,15 +57,15 @@ namespace TwoWayDataExchange
          }
 
          long fact = 1;
-         Console.WriteLine($"Вычисляем {n}! :");
+         Console.WriteLine(string.Format("Вычисляем {0}! :", n));
 
          for (int i = 2; i <= n; i++)
          {
             fact *= i;
-            Console.WriteLine($"  Шаг {i - 1}: умножаем на {i} -> текущий результат = {fact}");
+            Console.WriteLine(string.Format("  Шаг {0}: умножаем на {1} -> текущий результат = {2}", i - 1, i, fact));
          }
 
-         Console.WriteLine($"\nРезультат: {n}! = {fact}\n");
+         Console.WriteLine(string.Format("\nРезультат: {0}! = {1}\n", n, fact));
          return fact;
       }
 
