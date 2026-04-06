@@ -30,14 +30,6 @@ namespace TwoWayDataExchange
       {
          Text = "Факториал через консоль";
          FormClosing += Form1_FormClosing;
-
-         // Поле для ввода числа
-         Label lblPrompt = new Label
-         {
-            Text = "Введите целое число (0..20):",
-            Location = new Point(30, 30),
-            AutoSize = true
-         };
       }
 
       private void btnCalc_Click(object sender, EventArgs e)
