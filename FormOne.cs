@@ -24,8 +24,6 @@ namespace TwoWayDataExchange
          Console.WriteLine("Здесь будут отображаться шаги вычисления\n");
       }
 
-     
-
       private void ButtonCalculator_Click(object sender, EventArgs e)
       {
          if (!int.TryParse(TextBoxNumber.Text, out int n) || n < 0)
