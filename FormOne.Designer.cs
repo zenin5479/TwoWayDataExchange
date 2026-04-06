@@ -30,7 +30,7 @@
       {
          TextBoxNumber = new System.Windows.Forms.TextBox();
          LabelResult = new System.Windows.Forms.Label();
-         ButtonCalc = new System.Windows.Forms.Button();
+         ButtonCalculator = new System.Windows.Forms.Button();
          LabelPrompt = new System.Windows.Forms.Label();
          SuspendLayout();
          // 
@@ -50,15 +50,15 @@
          LabelResult.TabIndex = 1;
          LabelResult.Text = "Результат: ";
          // 
-         // ButtonCalc
+         // ButtonCalculator
          // 
-         ButtonCalc.Location = new System.Drawing.Point(12, 56);
-         ButtonCalc.Name = "ButtonCalc";
-         ButtonCalc.Size = new System.Drawing.Size(150, 23);
-         ButtonCalc.TabIndex = 2;
-         ButtonCalc.Text = "Вычислить факториал";
-         ButtonCalc.UseVisualStyleBackColor = true;
-         ButtonCalc.Click += btnCalc_Click;
+         ButtonCalculator.Location = new System.Drawing.Point(12, 56);
+         ButtonCalculator.Name = "ButtonCalculator";
+         ButtonCalculator.Size = new System.Drawing.Size(150, 23);
+         ButtonCalculator.TabIndex = 2;
+         ButtonCalculator.Text = "Вычислить факториал";
+         ButtonCalculator.UseVisualStyleBackColor = true;
+         ButtonCalculator.Click += btnCalc_Click;
          // 
          // LabelPrompt
          // 
@@ -75,7 +75,7 @@
          AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
          ClientSize = new System.Drawing.Size(314, 111);
          Controls.Add(LabelPrompt);
-         Controls.Add(ButtonCalc);
+         Controls.Add(ButtonCalculator);
          Controls.Add(LabelResult);
          Controls.Add(TextBoxNumber);
          Name = "FormOne";
@@ -89,7 +89,7 @@
 
       private System.Windows.Forms.TextBox TextBoxNumber;
       private System.Windows.Forms.Label LabelResult;
-      private System.Windows.Forms.Button ButtonCalc;
+      private System.Windows.Forms.Button ButtonCalculator;
       private System.Windows.Forms.Label LabelPrompt;
    }
 }
