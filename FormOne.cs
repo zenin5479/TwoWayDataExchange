@@ -31,7 +31,6 @@ namespace TwoWayDataExchange
          FormClosing += Form1_FormClosing;
       }
 
-
       private void btnCalc_Click(object sender, EventArgs e)
       {
          if (!int.TryParse(txtNumber.Text, out int n) || n < 0)
@@ -44,7 +43,7 @@ namespace TwoWayDataExchange
          long result = FactorialWithConsoleLog(n);
 
          // Отображаем результат в форме
-         lblResult.Text = $"Результат: {n}! = {result}";
+         lblResult.Text = string.Format("Результат: {0}! = {1}", n, result);
       }
 
 
