@@ -38,7 +38,7 @@
          // 
          txtNumber.Location = new System.Drawing.Point(12, 27);
          txtNumber.Name = "txtNumber";
-         txtNumber.Size = new System.Drawing.Size(100, 23);
+         txtNumber.Size = new System.Drawing.Size(144, 23);
          txtNumber.TabIndex = 0;
          // 
          // lblResult
@@ -73,7 +73,7 @@
          // 
          AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
          AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-         ClientSize = new System.Drawing.Size(470, 112);
+         ClientSize = new System.Drawing.Size(454, 112);
          Controls.Add(lblPrompt);
          Controls.Add(btnCalc);
          Controls.Add(lblResult);

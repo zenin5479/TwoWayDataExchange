@@ -27,7 +27,6 @@ namespace TwoWayDataExchange
 
       private void CreateUI()
       {
-         Text = "Факториал через консоль";
          FormClosing += Form1_FormClosing;
       }
 
