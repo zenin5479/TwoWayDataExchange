@@ -42,7 +42,7 @@ namespace TwoWayDataExchange
          long result = FactorialWithConsoleLog(n);
 
          // Отображаем результат в форме
-         lblResult.Text = string.Format("Результат: {0}! = {1}", n, result);
+         LabelResult.Text = string.Format("Результат: {0}! = {1}", n, result);
       }
 
       // Вычисляет факториал и выводит промежуточные шаги в консоль

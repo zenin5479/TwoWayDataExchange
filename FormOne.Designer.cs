@@ -29,8 +29,8 @@
       private void InitializeComponent()
       {
          txtNumber = new System.Windows.Forms.TextBox();
-         lblResult = new System.Windows.Forms.Label();
-         btnCalc = new System.Windows.Forms.Button();
+         LabelResult = new System.Windows.Forms.Label();
+         ButtonCalc = new System.Windows.Forms.Button();
          LabelPrompt = new System.Windows.Forms.Label();
          SuspendLayout();
          // 
@@ -41,24 +41,24 @@
          txtNumber.Size = new System.Drawing.Size(150, 23);
          txtNumber.TabIndex = 0;
          // 
-         // lblResult
+         // LabelResult
          // 
-         lblResult.AutoSize = true;
-         lblResult.Location = new System.Drawing.Point(12, 82);
-         lblResult.Name = "lblResult";
-         lblResult.Size = new System.Drawing.Size(66, 15);
-         lblResult.TabIndex = 1;
-         lblResult.Text = "Результат: ";
+         LabelResult.AutoSize = true;
+         LabelResult.Location = new System.Drawing.Point(12, 82);
+         LabelResult.Name = "LabelResult";
+         LabelResult.Size = new System.Drawing.Size(66, 15);
+         LabelResult.TabIndex = 1;
+         LabelResult.Text = "Результат: ";
          // 
-         // btnCalc
+         // ButtonCalc
          // 
-         btnCalc.Location = new System.Drawing.Point(12, 56);
-         btnCalc.Name = "btnCalc";
-         btnCalc.Size = new System.Drawing.Size(150, 23);
-         btnCalc.TabIndex = 2;
-         btnCalc.Text = "Вычислить факториал";
-         btnCalc.UseVisualStyleBackColor = true;
-         btnCalc.Click += btnCalc_Click;
+         ButtonCalc.Location = new System.Drawing.Point(12, 56);
+         ButtonCalc.Name = "ButtonCalc";
+         ButtonCalc.Size = new System.Drawing.Size(150, 23);
+         ButtonCalc.TabIndex = 2;
+         ButtonCalc.Text = "Вычислить факториал";
+         ButtonCalc.UseVisualStyleBackColor = true;
+         ButtonCalc.Click += btnCalc_Click;
          // 
          // LabelPrompt
          // 
@@ -75,8 +75,8 @@
          AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
          ClientSize = new System.Drawing.Size(314, 111);
          Controls.Add(LabelPrompt);
-         Controls.Add(btnCalc);
-         Controls.Add(lblResult);
+         Controls.Add(ButtonCalc);
+         Controls.Add(LabelResult);
          Controls.Add(txtNumber);
          Name = "FormOne";
          StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -88,8 +88,8 @@
       #endregion
 
       private System.Windows.Forms.TextBox txtNumber;
-      private System.Windows.Forms.Label lblResult;
-      private System.Windows.Forms.Button btnCalc;
+      private System.Windows.Forms.Label LabelResult;
+      private System.Windows.Forms.Button ButtonCalc;
       private System.Windows.Forms.Label LabelPrompt;
    }
 }
