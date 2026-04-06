@@ -27,7 +27,7 @@ namespace TwoWayDataExchange
 
       private void CreateUi()
       {
-         FormClosing += Form1_FormClosing;
+         FormClosing += FormOne_FormClosing;
       }
 
       private void ButtonCalculator_Click(object sender, EventArgs e)
@@ -67,7 +67,7 @@ namespace TwoWayDataExchange
          return fact;
       }
 
-      private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+      private void FormOne_FormClosing(object sender, FormClosingEventArgs e)
       {
          // Освобождаем консоль при закрытии формы
          FreeConsole();
