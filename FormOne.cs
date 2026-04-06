@@ -16,7 +16,7 @@ namespace TwoWayDataExchange
       {
          InitializeComponent();
 
-         CreateUI();
+         CreateUi();
 
          // Подключаем консоль к процессу
          AllocConsole();
@@ -25,7 +25,7 @@ namespace TwoWayDataExchange
          Console.WriteLine("Здесь будут отображаться шаги вычисления\n");
       }
 
-      private void CreateUI()
+      private void CreateUi()
       {
          FormClosing += Form1_FormClosing;
       }
