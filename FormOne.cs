@@ -21,8 +21,8 @@ namespace TwoWayDataExchange
          // Подключаем консоль к процессу
          AllocConsole();
          Console.WriteLine("=== Калькулятор факториала ===");
-         Console.WriteLine("Введите число в форму и нажмите кнопку.");
-         Console.WriteLine("Здесь будут отображаться шаги вычисления.\n");
+         Console.WriteLine("Введите число в форму и нажмите кнопку");
+         Console.WriteLine("Здесь будут отображаться шаги вычисления\n");
       }
 
       private void CreateUI()
