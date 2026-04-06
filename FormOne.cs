@@ -16,7 +16,6 @@ namespace TwoWayDataExchange
       {
          InitializeComponent();
          FormClosing += FormOne_FormClosing;
-         //CreateUi();
 
          // Подключаем консоль к процессу
          AllocConsole();
