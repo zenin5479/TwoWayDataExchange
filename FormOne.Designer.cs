@@ -36,7 +36,7 @@
          // 
          // txtNumber
          // 
-         txtNumber.Location = new System.Drawing.Point(12, 12);
+         txtNumber.Location = new System.Drawing.Point(12, 27);
          txtNumber.Name = "txtNumber";
          txtNumber.Size = new System.Drawing.Size(100, 23);
          txtNumber.TabIndex = 0;
@@ -44,7 +44,7 @@
          // lblResult
          // 
          lblResult.AutoSize = true;
-         lblResult.Location = new System.Drawing.Point(12, 67);
+         lblResult.Location = new System.Drawing.Point(12, 82);
          lblResult.Name = "lblResult";
          lblResult.Size = new System.Drawing.Size(66, 15);
          lblResult.TabIndex = 1;
@@ -52,7 +52,7 @@
          // 
          // btnCalc
          // 
-         btnCalc.Location = new System.Drawing.Point(12, 41);
+         btnCalc.Location = new System.Drawing.Point(12, 56);
          btnCalc.Name = "btnCalc";
          btnCalc.Size = new System.Drawing.Size(144, 23);
          btnCalc.TabIndex = 2;
@@ -62,11 +62,11 @@
          // lblPrompt
          // 
          lblPrompt.AutoSize = true;
-         lblPrompt.Location = new System.Drawing.Point(325, 137);
+         lblPrompt.Location = new System.Drawing.Point(12, 9);
          lblPrompt.Name = "lblPrompt";
-         lblPrompt.Size = new System.Drawing.Size(38, 15);
+         lblPrompt.Size = new System.Drawing.Size(161, 15);
          lblPrompt.TabIndex = 3;
-         lblPrompt.Text = "label1";
+         lblPrompt.Text = "Введите целое число (0..20):";
          // 
          // FormOne
          // 
