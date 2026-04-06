@@ -32,6 +32,7 @@ namespace TwoWayDataExchange
          FormClosing += Form1_FormClosing;
       }
 
+      
       private void btnCalc_Click(object sender, EventArgs e)
       {
          if (!int.TryParse(txtNumber.Text, out int n) || n < 0)
@@ -47,6 +48,8 @@ namespace TwoWayDataExchange
          lblResult.Text = $"Результат: {n}! = {result}";
       }
 
+
+      // Вычисляет факториал и выводит промежуточные шаги в консоль
       private long FactorialWithConsoleLog(int n)
       {
          if (n == 0 || n == 1)
