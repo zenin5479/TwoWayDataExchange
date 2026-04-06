@@ -28,17 +28,17 @@
       /// </summary>
       private void InitializeComponent()
       {
-         textBox1 = new System.Windows.Forms.TextBox();
+         txtNumber = new System.Windows.Forms.TextBox();
          label1 = new System.Windows.Forms.Label();
          button1 = new System.Windows.Forms.Button();
          SuspendLayout();
          // 
-         // textBox1
+         // txtNumber
          // 
-         textBox1.Location = new System.Drawing.Point(86, 109);
-         textBox1.Name = "textBox1";
-         textBox1.Size = new System.Drawing.Size(100, 23);
-         textBox1.TabIndex = 0;
+         txtNumber.Location = new System.Drawing.Point(86, 109);
+         txtNumber.Name = "txtNumber";
+         txtNumber.Size = new System.Drawing.Size(100, 23);
+         txtNumber.TabIndex = 0;
          // 
          // label1
          // 
@@ -65,7 +65,7 @@
          ClientSize = new System.Drawing.Size(484, 361);
          Controls.Add(button1);
          Controls.Add(label1);
-         Controls.Add(textBox1);
+         Controls.Add(txtNumber);
          Name = "FormOne";
          StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
          Text = "Двусторонний обмен между Windows Forms и консолью ";
@@ -75,7 +75,7 @@
 
       #endregion
 
-      private System.Windows.Forms.TextBox textBox1;
+      private System.Windows.Forms.TextBox txtNumber;
       private System.Windows.Forms.Label label1;
       private System.Windows.Forms.Button button1;
    }
