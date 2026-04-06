@@ -52,7 +52,7 @@ namespace TwoWayDataExchange
       {
          if (n == 0 || n == 1)
          {
-            Console.WriteLine(string.Format("Факториал {0}! = 1", n));
+            Console.WriteLine("Факториал {0}! = 1", n);
             return 1;
          }
 
