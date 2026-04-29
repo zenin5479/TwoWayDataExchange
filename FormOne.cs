@@ -67,7 +67,7 @@ namespace TwoWayDataExchange
       private void FormOne_FormClosing(object sender, FormClosingEventArgs e)
       {
          // Освобождаем консоль при закрытии формы
-         //FreeConsole();
+         FreeConsole();
       }
    }
 }
