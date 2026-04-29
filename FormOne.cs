@@ -53,11 +53,18 @@ namespace TwoWayDataExchange
 
          long fact = 1;
          Console.WriteLine(@"Вычисляем {0}! :", n);
-
-         for (int i = 2; i <= n; i++)
+         int i = 2;
+         while (i <= n)
          {
             fact *= i;
             Console.WriteLine(@"Шаг {0}: умножаем на {1} -> текущий результат = {2}", i - 1, i, fact);
+
+            i++;
+         }
+
+         for ( )
+         {
+
          }
 
          Console.WriteLine(@"Результат: {0}! = {1}", n, fact);
