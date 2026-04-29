@@ -38,7 +38,7 @@ namespace TwoWayDataExchange
          // Отображаем результат в форме
          LabelResult.Text = string.Format(@"Результат: {0}! = {1}", n, result);
 
-         Console.ReadKey();
+         //Console.ReadKey();
          // Освобождаем консоль при закрытии формы
          FreeConsole();
 
@@ -69,7 +69,7 @@ namespace TwoWayDataExchange
       private void FormOne_FormClosing(object sender, FormClosingEventArgs e)
       {
          // Освобождаем консоль при закрытии формы
-         FreeConsole();
+         //FreeConsole();
       }
    }
 }
