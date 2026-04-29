@@ -57,7 +57,9 @@ namespace TwoWayDataExchange
             Console.WriteLine(@"Шаг {0}: умножаем на {1} -> текущий результат = {2}", i - 1, i, fact);
          }
 
-         Console.WriteLine("\nРезультат: {0}! = {1}\n", n, fact);
+         Console.WriteLine(@"
+Результат: {0}! = {1}
+", n, fact);
          return fact;
       }
 
