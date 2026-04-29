@@ -21,7 +21,8 @@ namespace TwoWayDataExchange
          AllocConsole();
          Console.WriteLine(@"Калькулятор факториала");
          Console.WriteLine(@"Введите число в форму и нажмите кнопку");
-         Console.WriteLine("Здесь будут отображаться шаги вычисления\n");
+         Console.WriteLine(@"Здесь будут отображаться шаги вычисления
+");
       }
 
       private void ButtonCalculator_Click(object sender, EventArgs e)
