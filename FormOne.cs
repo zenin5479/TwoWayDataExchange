@@ -38,8 +38,7 @@ namespace TwoWayDataExchange
          // Отображаем результат в форме
          LabelResult.Text = string.Format(@"Результат: {0}! = {1}", n, result);
 
-         //Console.ReadKey();
-         // Освобождаем консоль при закрытии формы
+         // Освобождаем консоль после завершения расчетов и передачи данных в форму
          FreeConsole();
 
       }
