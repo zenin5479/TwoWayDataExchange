@@ -39,7 +39,7 @@ namespace TwoWayDataExchange
          LabelResult.Text = string.Format(@"Результат: {0}! = {1}", n, result);
 
          // Освобождаем консоль после завершения расчетов и передачи данных в форму
-         FreeConsole();
+         //FreeConsole();
       }
 
       // Вычисляет факториал и выводит промежуточные шаги в консоль
