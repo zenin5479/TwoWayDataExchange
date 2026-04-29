@@ -58,7 +58,6 @@ namespace TwoWayDataExchange
          {
             fact *= i;
             Console.WriteLine(@"Шаг {0}: умножаем на {1} -> текущий результат = {2}", i - 1, i, fact);
-
             i++;
          }
 
