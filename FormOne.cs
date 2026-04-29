@@ -61,11 +61,6 @@ namespace TwoWayDataExchange
             i++;
          }
 
-         for ( )
-         {
-
-         }
-
          Console.WriteLine(@"Результат: {0}! = {1}", n, fact);
          return fact;
       }
