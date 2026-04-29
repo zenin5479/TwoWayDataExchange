@@ -37,6 +37,11 @@ namespace TwoWayDataExchange
 
          // Отображаем результат в форме
          LabelResult.Text = string.Format(@"Результат: {0}! = {1}", n, result);
+
+         Console.ReadKey();
+         // Освобождаем консоль при закрытии формы
+         FreeConsole();
+
       }
 
       // Вычисляет факториал и выводит промежуточные шаги в консоль
