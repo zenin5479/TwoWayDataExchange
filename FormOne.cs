@@ -49,7 +49,7 @@ namespace TwoWayDataExchange
          }
 
          long fact = 1;
-         Console.WriteLine("Вычисляем {0}! :", n);
+         Console.WriteLine(@"Вычисляем {0}! :", n);
 
          for (int i = 2; i <= n; i++)
          {
