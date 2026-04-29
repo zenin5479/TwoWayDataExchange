@@ -28,7 +28,7 @@ namespace TwoWayDataExchange
       {
          if (!int.TryParse(TextBoxNumber.Text, out int n) || n < 0)
          {
-            MessageBox.Show("Введите неотрицательное целое число.", "Ошибка");
+            MessageBox.Show(@"Введите неотрицательное целое число.", @"Ошибка");
             return;
          }
 
